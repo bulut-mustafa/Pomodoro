@@ -71,7 +71,7 @@ tik_label.grid(column=1,row=3)
 start_button = tkinter.Button(text="Start", highlightbackground=YELLOW,command=start_timer)
 start_button.grid(column=0, row=2)
 
-reset_button = tkinter.Button(text="Timer", highlightbackground=YELLOW, command=reset_timer)
+reset_button = tkinter.Button(text="Reset", highlightbackground=YELLOW, command=reset_timer)
 reset_button.grid(column=2, row=2)
 
 window.mainloop()
